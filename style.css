@@ -54,3 +54,27 @@ header{
     font-size: 17px;
     font-weight: bold;
 }
+.sec-header{
+   font-size: 22px;
+   text-align: center;
+   color: rgb(8, 51, 80);
+}
+.sec_content{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 16px;
+}
+.img{
+    border: 2px solid rgb(8, 51, 80);
+    height: 150px;
+    border-radius: 10px;
+}
+.content p {
+    width: 200px;
+    text-align: center;
+    color: rgb(8, 51, 80);
+}
+section{
+    padding: 70px;
+}
