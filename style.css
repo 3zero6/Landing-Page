@@ -3,6 +3,7 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body{
     display: flex;
@@ -24,6 +25,7 @@ header{
 }
 .info a{
     color: white;
+    font-size: 18px;
 }
 .social_icons{
     display: flex;
@@ -74,7 +76,54 @@ header{
     width: 200px;
     text-align: center;
     color: rgb(8, 51, 80);
+    font-size: 18px;
 }
-section{
+.section1{
     padding: 70px;
+}
+.section2 {
+    background-color: rgb(218, 218, 218);
+    margin-top: 20px;
+    padding: 50px;
+}
+.section2 p {
+    width: 800px;
+    margin: 0 auto ;
+    font-size: 25px;
+    color: rgb(8, 51, 80);
+}
+.sec_name{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(8, 51, 80);
+}
+.remainder{
+    width: 1000px;
+    background-color: rgb(44, 181, 223);
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    border-radius: 10px;
+}
+.remainder_text{
+    color: white;
+}
+.remainder_text h1{
+    font-size: 25px;
+}
+.remainder_text p{
+    font-size: 18px;
+}
+.btn_border{
+    border: 2px solid white;
+}
+footer{
+    text-align: center;
+    background-color: rgb(8, 51, 80);
+    color: white;
+    padding: 30px;
+    font-size: 20px;
 }
